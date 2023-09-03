@@ -1,0 +1,71 @@
+shat: Text vom ESP(www) zum Seriele(MyPy) [chat]
+	http://ip/action?benderser=test2
+
+act: Schaltbefehl vom ESP(www) zu ESP(schalter) [info]
+	http://ip/action?benderser=LEDWLANON
+	
+stat: Status vom ESP(lokal) zu Seriele [info]
+version: -"-
+OTA-1: -"-
+OTA-2: -"-
+mode: -"-
+MAC: -"-
+Connectedto: -"-
+IPaddress: -"-
+getfilelist: -"-
+UploadDataName: -"-
+UploadDataWrite: -"-
+UploadDataWrite: -"-
+UploadData: -"-
+
+
+
+get:time vom Serial(Py) zum ESP
+get:date vom Serial(Py) zum ESP
+get:day  vom Serial(Py) zum ESP
+
+gaw_time:11:22:33	von ESP zu Serial(Py)
+gaw_date:01.01.1970	von ESP zu Serial(Py)
+gaw_day:1..7		von ESP zu Serial(Py)
+
+//get:time get:date get:day get:wochentag get:mac get:ip get:ssid get:netmode
+//get:ledwlan 
+//get:chipid get:flashsize get:chipspeed get:cyclecount
+
+
+version:BenderLan V0.5
+OTA-1:
+OTA-1:Connect WiFi
+OTA-2:SSID: 42
+OTA-1:Connect WiFi.
+OTA-1:Connect WiFi..
+OTA-1:Connect WiFi...
+OTA-1:IP: 192.168.0.45
+mode:client
+MAC:18:fe:34:d6:5:b7
+Connectedto:42
+IPaddress:192.168.0.45
+stat:HTTP server started
+getfilelist:/favicon.ico
+getfilelist:/style.css
+getfilelist:/system.js
+ser:ichh auch
+ser:ich bin Tom
+ser:tom
+act:LEDWLANON
+act:LEDWLANOFF
+UploadDataName:system.js
+UploadDataWrite:2048
+UploadDataWrite:1848
+UploadData:close
+getfilelist:/favicon.ico
+getfilelist:/style.css
+getfilelist:/system.js
+ser:hallo
+ser:wer da?
+ser:wie spät?
+ser:reboot
+ser:reebot:now\r
+ser:neustart
+
+
