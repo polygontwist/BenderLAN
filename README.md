@@ -7,3 +7,4 @@ Auf dem ESP läuft ein Webserver, der Kommandos entgegen nimmt, ggf. ausführt o
 
 So kann man z.B. sich die Zeit ansagen lassen, eine zufällige Kopfanimation starten oder stoppen, das Datum erfragen oder das Phythonscript beenden. Man kann auch die LED auf dem ESP ein- und ausschalten.
 
+![screenshot_1](https://github.com/polygontwist/BenderLAN/blob/main/benderLAN.png)
